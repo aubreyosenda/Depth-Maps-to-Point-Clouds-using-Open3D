@@ -14,7 +14,7 @@ link: https://github.com/DepthAnything/Depth-Anything-V2#pre-trained-models
 
 put them under the checkpoints directory.
 
-### run the code 
+### Run the Code 
 
 ```
 python run_video_pc.py   --encoder vits   --video-path <video-path>
@@ -26,3 +26,5 @@ python run_video_pc.py   --encoder vits   --video-path <video-path>  --grayscale
 python run_video_pc.py   --encoder vits   --video-path video.mp4  --grayscale
 
 ```
+
+Depth-Anything-V2 is monocular depth estimation model used here: https://github.com/DepthAnything/Depth-Anything-V2
